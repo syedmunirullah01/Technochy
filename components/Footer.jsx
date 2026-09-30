@@ -82,18 +82,12 @@ export default function Footer() {
           </div>
 
           {/* Center Brand Logo & Text Mark */}
-          <div className="flex items-center justify-center gap-4 sm:gap-6 relative z-20">
-
-            {/* 3D Hemisphere Logo Mark with Electric Blue Accent */}
-            <div className="flex items-center gap-1 sm:gap-2">
-              <div className="w-6 sm:w-10 h-14 sm:h-20 bg-gradient-to-br from-[#00a3ff] via-[#0088ff] to-[#0055cc] rounded-l-full shadow-[0_0_25px_rgba(0,136,255,0.6)] transform -rotate-12 group-hover:rotate-0 transition-all duration-500"></div>
-              <div className="w-10 sm:w-16 h-20 sm:h-28 bg-gradient-to-r from-[#181818] via-gray-900 to-black rounded-r-full shadow-2xl group-hover:scale-105 transition-transform duration-500"></div>
-            </div>
-
-            {/* Main Brand Title */}
-            <span className="text-3xl sm:text-7xl lg:text-[110px] font-mono font-black text-[#111111] tracking-tighter leading-none group-hover:text-[#181818] transition-colors">
-              Technochy
-            </span>
+          <div className="flex items-center justify-center relative z-20">
+            <img
+              src="/logo-transparent.png"
+              alt="Technochy Logo"
+              className="h-14 sm:h-24 lg:h-32 w-auto object-contain transition-transform duration-500 group-hover:scale-105 py-2"
+            />
           </div>
 
         </div>

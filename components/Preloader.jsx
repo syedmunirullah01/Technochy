@@ -72,7 +72,7 @@ export default function Preloader() {
 
           {/* Corner Clean Brand Indicators */}
           <div className="absolute top-8 left-8 z-20 hidden sm:flex items-center gap-2.5 font-mono text-[11px] text-gray-400 tracking-widest uppercase">
-            <span className="w-2 h-2 bg-[#0088ff] rounded-full animate-ping"></span>
+            <img src="/icon.png" alt="Icon" className="w-5 h-5 object-contain" />
             <span className="font-bold text-white">TECHNOCHY STUDIO</span>
           </div>
 

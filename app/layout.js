@@ -16,11 +16,12 @@ export const metadata = {
   description: "High performance AI agency landing page with rich animations, pixel grid system, interactive services, and showcase portfolio.",
   icons: {
     icon: [
+      { url: "/favicon.ico" },
+      { url: "/icon.png", type: "image/png" },
       { url: "/favicon.svg", type: "image/svg+xml" },
-      { url: "/icon.svg", type: "image/svg+xml" },
     ],
-    shortcut: ["/favicon.svg"],
-    apple: ["/favicon.svg"],
+    shortcut: ["/favicon.ico"],
+    apple: ["/icon.png"],
   },
 };
 

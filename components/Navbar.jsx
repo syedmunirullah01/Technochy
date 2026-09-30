@@ -27,14 +27,14 @@ export default function Navbar() {
           <div className="absolute bottom-0 left-0 w-2 h-2 bg-black -translate-x-1/2 translate-y-1/2 z-20"></div>
           <div className="absolute bottom-0 right-0 w-2 h-2 bg-black translate-x-1/2 translate-y-1/2 z-20"></div>
 
-          {/* Left Cell: High-Impact Stylized Text Logo */}
+          {/* Left Cell: Official Brand Logo */}
           <div className="px-4 sm:px-8 h-full flex items-center border-r border-gray-300">
             <a href="/#home" className="flex items-center group">
-              <span className="font-extrabold text-2xl sm:text-[32px] tracking-tighter uppercase font-sans flex items-center gap-0.5 whitespace-nowrap">
-                <span className="text-[#111111] group-hover:text-black transition-colors">TECHNO</span>
-                <span className="text-[#0088ff] group-hover:text-[#0066ee] transition-colors">CHY</span>
-                <span className="w-2 h-2 bg-[#0088ff] rounded-sm inline-block ml-1 shadow-[0_0_8px_rgba(0,136,255,0.6)]"></span>
-              </span>
+              <img
+                src="/logo-transparent.png"
+                alt="Technochy Logo"
+                className="h-8 sm:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              />
             </a>
           </div>
 
